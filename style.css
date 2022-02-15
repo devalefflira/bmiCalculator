@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-color: #222326;
+    color: #C1D4D9;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+a {
+    color:#FFFFFF;
+}
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #36403E;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #000000;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    border-bottom: solid 5px #C1D4D9;
+    margin-bottom: 20px;
+}
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+}
+.input label {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
+button {
+    width: 300px;
+    height: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    background-color: #BF0413;
+    color: #E9D8A6;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.result {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0px 0px 10px #000000;
+    background-color:#9B2226;
+    color: #FFFFFF;
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
+.tituloDaPagina {
+    text-align: center;
+    color: #E9D8A6;
+}
+p {
+    text-align: justify;
+    margin-top: 10px;
+    padding:30px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+table {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font: normal 20px serif;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 10px #000000;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+h2, .fontTable {
+    text-align: center;
+    color: #E9D8A6;
+}
+h2 {
+    margin-top: 20px;
+}
+.fontTable {
+    margin-top: -30px;
+}
