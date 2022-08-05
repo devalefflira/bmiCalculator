@@ -1,87 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Calculadora IMC</title>
-        <link rel="stylesheet" href="style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="tituloDaPagina">
-            <h1>O que é IMC?</h1>
-            <p> IMC é a sigla para Índice de Massa Corporal, que é um cálculo que serve para avaliar 
-            se a pessoa está dentro do seu peso ideal em relação à altura. Assim, de acordo com 
-            o valor do resultado de IMC, a pessoa pode saber se está dentro do peso ideal, acima 
-            ou abaixo do peso desejado.
-            </p>
-            <a href="https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal" target="_blank">Saiba mais</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="tituloDaPagina">
+      <h1>O que é IMC?</h1>
+      <p>
+        IMC é a sigla para Índice de Massa Corporal, que é um cálculo que serve
+        para avaliar se a pessoa está dentro do seu peso ideal em relação à
+        altura. Assim, de acordo com o valor do resultado de IMC, a pessoa pode
+        saber se está dentro do peso ideal, acima ou abaixo do peso desejado.
+      </p>
+      <a
+        href="https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal"
+        target="_blank"
+        >Saiba mais</a
+      >
+    </div>
+    <br />
+    <br />
+    <main>
+      <div class="container">
+        <div class="title">Calculadora - IMC</div>
+        <div class="input">
+          <label>Nome:</label>
+          <input type="text" id="nome" />
         </div>
-        <br>
-        <br>
-        <main>
-            <div class="container">
-                <div class="title">Calculadora - IMC</div>
-                <div class="input">
-                    <label>Nome:</label>
-                    <input type="text" id='nome' />
-                </div>
-                <div class="input">
-                    <label>Altura:</label>
-                    <input type="number" id='altura' />
-                </div>
-                <div class="input">
-                    <label>Peso:</label>
-                    <input type="number" id='peso' />
-                </div>
-                <button id='calcular'>Calcular</button>
-                <div class="result" id='resultado'></div>
-            </div>
-        </main>
-            <h2>Tabela de Referência</h2>
-            <table border="1">
-                <tr>
-                    <td><b>IMC (Kg/m²)</b>b></td>
-                    <td><b>Classificação</b></td>
-                </tr>
-                <tr>
-                    <td>Menor que 16,0</td>
-                    <td>Magreza grau III</td>
-                </tr>
-                <tr>
-                    <td>Entre 16,0 e 16,9</td>
-                    <td>Magreza grau II</td>
-                </tr>
-                <tr>
-                    <td>Entre 17,0 e 18,4</td>
-                    <td>Magreza grau I</td>
-                </tr>
-                <tr>
-                    <td><b>Entre 18,5 e 24,9</b></td>
-                    <td><b>Peso normal</b></td>
-                </tr>
-                <tr>
-                    <td>Entre 25,0 e 29,9</td>
-                    <td>Sobrepeso</td>
-                </tr>
-                <tr>
-                    <td>Entre 30,0 e 34,9</td>
-                    <td>Obesidade grau I</td>
-                </tr>
-                <tr>
-                    <td>Entre 35,0 e 39,9</td>
-                    <td>Obesidade grau II</td>
-                </tr>
-                <tr>
-                    <td>Maior ou Igual a 40,0</td>
-                    <td>Magreza grau III</td>
-                </tr>
-                <br>
-                <div class="fontTable">Fonte: Organização Mundial de Saúde (OMS).</div>
-                
-            </table>
-        <script src="./script.js"></script>      
-    </body>
+        <div class="input">
+          <label>Altura:</label>
+          <input type="number" id="altura" />
+        </div>
+        <div class="input">
+          <label>Peso:</label>
+          <input type="number" id="peso" />
+        </div>
+        <button id="calcular">Calcular</button>
+        <div class="result" id="resultado"></div>
+      </div>
+    </main>
+    <h2>Tabela de Referência</h2>
+    <table border="1">
+      <tr>
+        <td><b>IMC (Kg/m²)</b>b></td>
+        <td><b>Classificação</b></td>
+      </tr>
+      <tr>
+        <td>Menor que 16,0</td>
+        <td>Magreza grau III</td>
+      </tr>
+      <tr>
+        <td>Entre 16,0 e 16,9</td>
+        <td>Magreza grau II</td>
+      </tr>
+      <tr>
+        <td>Entre 17,0 e 18,4</td>
+        <td>Magreza grau I</td>
+      </tr>
+      <tr>
+        <td><b>Entre 18,5 e 24,9</b></td>
+        <td><b>Peso normal</b></td>
+      </tr>
+      <tr>
+        <td>Entre 25,0 e 29,9</td>
+        <td>Sobrepeso</td>
+      </tr>
+      <tr>
+        <td>Entre 30,0 e 34,9</td>
+        <td>Obesidade grau I</td>
+      </tr>
+      <tr>
+        <td>Entre 35,0 e 39,9</td>
+        <td>Obesidade grau II</td>
+      </tr>
+      <tr>
+        <td>Maior ou Igual a 40,0</td>
+        <td>Obesidade grau III</td>
+      </tr>
+      <br />
+      <div class="fontTable">Fonte: Organização Mundial de Saúde (OMS).</div>
+    </table>
+    <script src="./script.js"></script>
+  </body>
 </html>
